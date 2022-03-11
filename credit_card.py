@@ -5,6 +5,7 @@
 # .\chrome.exe --remote-debugging-port=9999 --user-data-dir="C:\gbf"
 
 #dir 放資料位置 隨便你放
+# 到購物車網頁
 #########################################################################
 
 from selenium.webdriver.chrome.options import Options
