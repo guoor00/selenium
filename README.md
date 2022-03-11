@@ -13,9 +13,13 @@ ps.我遇到購物車是空的無法購買問題
 
 
 步驟3也可以用程式碼解決，但是怕網頁跳轉太慢會失敗，可以用
+
+` 
 WebDriverWait(driver, 1, 0.2).until(
             EC.presence_of_element_located((By.ID, 'buy_yes'))
         )
+` 
+
 方式去解決，要抓什麼ID就可用檢查去查看
 
 只要改信用卡號碼較可以搶購了，以上方式祝大家搶購成功
